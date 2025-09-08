@@ -32,22 +32,22 @@
   <body>
     <!-- navbar section  -->
     <div
-      class="nve-pr flex  justify-around items-center bg-[#15803D] p-5 text-white"
+      class="nve-pr md:flex text-center    justify-around items-center bg-[#15803D] p-5 text-white"
     >
       <div class="font-bold text-xl">🌴 Green-Earth</div>
-      <div class="flex items-center gap-5">
+      <div class="md:flex items-center gap-5 text-center ">
         <div>About</div>
         <div>Gallery</div>
         <div>Plant a Tree</div>
       </div>
       <div class="">
-        <button class="btn bg-[#FACC15] text-[#15803D] border-0 shadow-none">
+        <button class="btn  bg-[#FACC15] text-[#15803D] border-0 shadow-none ">
           Plant a Tree
         </button>
       </div>
     </div>
     <!-- main section  -->
-    <section class="flex items-center bg-[#CFF0DC] gap-5">
+    <section class="md:flex   items-center bg-[#CFF0DC] gap-5">
       <div><img src="assets/hero-leaf1.png" alt="" /></div>
       <div class="space-y-3 justify-center items-center">
         <h1 class="text-3xl font-bold">Plant a Tree, Grow a Future</h1>
@@ -62,11 +62,44 @@
       <div><img src="assets/hero-leaf2.png" alt="" /></div>
     </section>
     <!-- importation section ---  -->
- 
+ <section class=" bg-[#F0FDF4] justify-around">
+  <h1 class="font-bold text-2xl text-center">Choose Your Trees</h1>
+          <div >
+<h1 class="font-bold text-2xl">Categories</h1>
+</div>
+<div>
+    <button class="btn text-slate-500 my-3  hover:bg-[#166534]">
+          All Trees
+        </button>
+</div>
+  <div class="grid grid-cols-3 " id="level-container">
+        <div class="">
+          <!-- Card -->
+          <div class="bg-white p-4 rounded-xl shadow">
+            <div class="h-32 bg-gray-200 rounded mb-2"></div>
+            <h3 class="font-semibold">Mango Tree</h3>
+            <p class="text-sm text-gray-600 mb-2">A fast-growing tropical tree that produces delicious, juicy mangoes during summer.</p>
+            <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">Fruit Tree</span>
+            <div class="flex justify-between items-center mt-2">
+              <button class="bg-green-600 text-white px-3 py-1 rounded">Add to Cart</button>
+              <span class="font-bold">৳500</span>
+            </div>
+ <div id="word-container" class="bg-gray-200 p-10 ">
+  
+  </div>
+</div>
+ <main class="col-span-7">
+
+
+          </div>
+          <!-- Duplicate this card as needed -->
+        </div>
+      </main>
+ </section>
     <!-- About the Campaign section  -->
     <section class="bg-[#F0FDF4] mt-24 ">
       <div class="text-center p-10 text-2xl font-bold">About the Campaign</div>
-      <div class="flex  items-center w-8/12 mx-auto gap-5 pb-10">
+      <div class="md:flex  items-center w-8/12 mx-auto gap-5 pb-10">
         <div><img src="assets/about.png" alt="" /></div>
         <div class="text-slate-500">
           <p class="">
@@ -87,9 +120,9 @@
       </div>
     </section>
     <!-- our section  -->
-    <section class="bg-[#CFF0DC] ">
+    <section class="bg-[#CFF0DC]  ">
       <div class="text-center text-2xl py-10 font-bold"><h1>Our Impact</h1></div>
-      <div class="flex justify-around text-center items-center pb-24 ">
+      <div class="md:flex  justify-around text-center items-center pb-24 ">
         <div class="bg-white rounded-md py-5 ">
           <h1 class="text-[#15803D] font-bold text-2xl px-20"> 500K</h1>
           <p class="text-slate-500">Trees Planted</p>
