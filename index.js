@@ -6,7 +6,7 @@ const loadLessons = () => {
 };
 const loadLevelWord = (plants) => {
   console.log(plants);
-  const url = `https://openapi.programming-hero.com/api/plants ${plants}`;
+  const url = "https://openapi.programming-hero.com/api/plants";
   fetch(url)
     .then((res) => res.json())
     .then((data) => displaylevelWord(data.plants));
